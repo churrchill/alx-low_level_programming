@@ -6,11 +6,14 @@
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+int main()
 {
-int c;
-for (c = 0; c <= 9; c++)
-printf("%i", c);
-printf("\n");
-return (0);
+int a=48;
+while (a <= 57)
+{
+putchar(a);
+a++;
+}  
+putchar('\n');
+return (0); 
 }
