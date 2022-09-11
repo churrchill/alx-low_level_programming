@@ -11,10 +11,10 @@ int main(void)
 int c;
 for (c = 'a'; c <= 'z'; c++)
 {
+if (c == 'd' || c == 'e')
+continue;
 putchar(c);
 }
-for (c = 'A'; c <= 'Z'; c++)
-putchar(c);
 putchar('\n');
 return (0);
 }
