@@ -14,12 +14,12 @@ while (a <= 57)
 putchar(a);
 if (a == 57)
 {
-putchar(' ');
 break;
 }
 putchar(',');
 putchar(' ');
 a++;
 }
+putchar('\n');
 return (0);
 }
