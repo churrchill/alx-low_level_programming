@@ -6,12 +6,12 @@
 *
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 int a = 48;
 int b;
 int c;
-int d; 
+int d;
 while (a <= 57)
 {
 b = 48;
@@ -23,7 +23,7 @@ while (c <= 57)
 d = 48;
 while (d <= 57)
 {
-if(!(d ==b && c == a))
+if (!(d == b && c == a))
 {
 putchar(a);
 putchar(b);
@@ -42,7 +42,7 @@ c++;
 b++;
 }
 a++;
-}  
+}
 putchar('\n');
-return (0); 
+return (0);
 }
