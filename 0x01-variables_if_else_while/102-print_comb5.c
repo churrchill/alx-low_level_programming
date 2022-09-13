@@ -23,6 +23,8 @@ while (c <= 57)
 d = 48;
 while (d <= 57)
 {
+if(!(d == 48 && c == d))
+{
 putchar(a);
 putchar(b);
 putchar(' ');
@@ -32,6 +34,7 @@ if (a == 57 && b == 57 && c == 57 && d == 57)
 break;
 putchar(',');
 putchar(' ');
+}
 d++;
 }
 c++;
