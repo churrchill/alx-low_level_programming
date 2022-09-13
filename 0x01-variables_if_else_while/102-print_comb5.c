@@ -23,7 +23,7 @@ while (c <= 57)
 d = 48;
 while (d <= 57)
 {
-if(!(d == 48 && c == d))
+if(!(d ==b && c == a))
 {
 putchar(a);
 putchar(b);
