@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _print_alphabet - writes the character c to stdout
+* print_alphabet - writes the character c to stdout
 *
 * Return: On success 1.
 *
