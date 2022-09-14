@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "_putchar"
+#include "_putchar.h"
 /**
 * main - Entry point
 *
@@ -14,6 +14,6 @@ while (i < 8)
 _putchar(name[i]);
 i++;
 }
-putchar("\n");
+_putchar('\n');
 return (0); 
 }
