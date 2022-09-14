@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_islower - writes the character c to stdout
+*print_sign - writes the character c to stdout
 *
 *@c: c is an ascii character
 *
@@ -10,10 +10,19 @@
 *
 * On error, -1 is returned, and errno is set appropriately.
 */
-int _islower(int c)
+int print_sign(int c)
 {
-if (c > 96 && c < 123)
+if (c > 0)
+{
+_putchar('+');
 return (1);
-else
+}
+else if(c < 0){
+_putchar('-');
+return (-1);
+}
+else{
+_putchar('0');
 return (0);
+}
 }
