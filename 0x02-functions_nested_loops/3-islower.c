@@ -2,7 +2,7 @@
 /**
 *_islower - writes the character c to stdout
 *
-*@c for new number
+*@c: c is an ascii character
 *
 *c number for paramerter
 *
