@@ -1,6 +1,6 @@
 #include "main.h"
-0;276;0c/**
-* times_table - writes the character c to s
+/**
+times_table - writes the character c to s
 * On error, -1 is returned, and errno is set appropriately.
 */
 void times_table(void)
