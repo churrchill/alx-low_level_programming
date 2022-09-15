@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-times_table - writes the character c to s
-* On error, -1 is returned, and errno is set appropriately.
+*times_table-writes the character c to subnet
+*
 */
 void times_table(void)
 {
@@ -11,10 +11,8 @@ while (fact < 10)
 int i = 0;
 while (i < 10)
 {
-int res = fact * i;
-int res2 = fact * (i + 1);
-int tens = res / 10;
-int ones = res % 10;
+int res = fact * i, res = fact * (i + 1), tens = res / 10, ones = res % 10;
+
 if (i == 9)
 {
 if (res >= 10)
