@@ -37,9 +37,12 @@ int res = fact * i;
    _putchar(ones + '0');
  }
  if (res2 <10 && i!= 9)
-   {_putchar(' ');
+   {
+     _putchar(',');
+     _putchar(' ');
      _putchar(' ');}
  else if (res2 >=10 && i !=9){
+   _putchar(',');
    _putchar(' ');}
 i++;
 }
