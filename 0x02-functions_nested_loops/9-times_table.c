@@ -37,7 +37,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else if (res2 >= 10 && i ! =9)
+else if (res2 >= 10 && i !=9)
 {
 _putchar(',');
 _putchar(' ');
