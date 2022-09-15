@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+0;276;0c/**
 * times_table - writes the character c to s
 * On error, -1 is returned, and errno is set appropriately.
 */
@@ -23,9 +23,10 @@ _putchar(tens + '0');
 }
 _putchar(ones + '0');
 }
-else  if (res >= 10){
+else  if (res >= 10)
+{
 _putchar(tens + '0');
-_putchar(ones +'0');
+_putchar(ones + '0');
 }
 else
 {
@@ -37,7 +38,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else if (res2 >= 10 && i !=9)
+else if (res2 >= 10 && i != 9)
 {
 _putchar(',');
 _putchar(' ');
