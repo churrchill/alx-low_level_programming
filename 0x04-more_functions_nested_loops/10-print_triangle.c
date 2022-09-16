@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * print_triangle - prints a triangle
  * @size: length of sides minus hypotenuse
