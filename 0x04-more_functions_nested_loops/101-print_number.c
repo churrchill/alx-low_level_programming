@@ -15,7 +15,7 @@ for (a = b; a >= 10; a /= 10)
 {
 c *= 10;
 }
- return (c);
+return (c);
 }
 void print_number(int n)
 {
