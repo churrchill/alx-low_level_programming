@@ -25,7 +25,7 @@ else
 while (n <= end)
 {
 printf("%d", n);
-if(n == end)
+if (n == end)
 break;
 printf(",");
 printf(" ");
