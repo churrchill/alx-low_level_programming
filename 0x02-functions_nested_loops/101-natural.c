@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
 * main - writes the character c to stdout
+* Return : vales
 */
-void main()
+int main()
 {
 int sum = 0, count = 1;
 while (count < 1024)
@@ -16,4 +17,5 @@ count++;
 }
 printf("%d", sum);
 printf("\n");
+return (sum);
 }
