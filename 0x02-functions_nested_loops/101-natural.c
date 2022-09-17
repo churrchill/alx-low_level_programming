@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * main - writes the character c to stdout
-* Return: On success of the value
+* Return: 0 On success of the value
 */
 int main(void)
 {
@@ -17,5 +17,5 @@ count++;
 }
 printf("%d", sum);
 printf("\n");
-return (sum);
+return (0);
 }
