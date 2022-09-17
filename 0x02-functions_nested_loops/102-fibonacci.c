@@ -6,9 +6,10 @@
 */
 int main(void)
 {
+int a;
 long i = 1; 
 long fibo = 1;
-for (int a = 1; a <= 50; a++)
+for (a = 1; a <= 50; a++)
 {
 if (a == 50)
 {
