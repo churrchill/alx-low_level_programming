@@ -7,7 +7,7 @@
 int main(void)
 {
 int a;
-long i = 1; 
+long i = 1;
 long fibo = 1;
 for (a = 1; a <= 50; a++)
 {
