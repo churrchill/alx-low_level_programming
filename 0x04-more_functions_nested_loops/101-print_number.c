@@ -4,7 +4,7 @@
 * @n: number to print
 * Return: void
 * check - checks number of digits
-* @a: no to be checked
+* @b: no to be checked
 * Return: int
 */
 int check(int b)
@@ -21,7 +21,7 @@ void print_number(int n)
 {
 int start;
 int num = n;
-if(num < 0)
+if (num < 0)
 {
 _putchar('-');
 num *= -1;
