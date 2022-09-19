@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* reset_to_98 - prints numbers 0-14 ten times
+* swap_int - prints numbers 0-14 ten times
 * @a: a pointer parameter
 * @b: second ointer valaue
 * Return: void
