@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* rev_string - gets the lenght
+* _strcpy - gets the lenght
 * @dest: destination
 * @src: source
 * Return: char with copy of a string
