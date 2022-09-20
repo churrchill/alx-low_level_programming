@@ -15,8 +15,8 @@ i++;
 }
 j = i / 2;
 if (j % 2 != 0)
-j = (i + 1) / 2;
-while (j < i )
+j = i / 2;
+while (j < i)
 {
 _putchar(str[j]);
 j++;
