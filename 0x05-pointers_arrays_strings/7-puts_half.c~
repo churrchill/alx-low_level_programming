@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include "main.h"
+/**
+* rev_string - gets the lenght
+* @s: a pointer parameter
+* Return: void
+*/
+void puts_half(char *str)
+void puts_half(char *str)
+
+{
+
+int i, j, max;
+
+
+
+i = 0;
+
+while (str[i] != '\0')
+
+{
+
+i++;
+
+}
+
+max = i;
+
+j = max / 2;
+
+while (j <= max)
+
+{
+
+_putchar(str[j]);
+
+j++;
+
+}
+
+_putchar('\n');
+
+}
