@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* puts - gets the lenght
+* puts2 - gets the lenght
 * @str: a pointer parameter
 * Return: void
 */
