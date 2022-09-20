@@ -1,4 +1,4 @@
-#0;276;0cinclude <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
 * print_array - gets the lenght
