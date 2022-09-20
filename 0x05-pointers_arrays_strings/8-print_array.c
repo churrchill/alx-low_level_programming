@@ -1,4 +1,4 @@
-#include <stdio.h>
+#0;276;0cinclude <stdio.h>
 #include "main.h"
 /**
 * print_array - gets the lenght
@@ -17,10 +17,10 @@ if (n > 0)
 {
 while (a[i] != '\0' && count < n)
 {
-printf(%d, , a[i]);
+printf("%d, ", a[i]);
 i++;
 count++;
 }
-printf(%dn, a[i]);
+printf("%d\n", a[i]);
 }
 }
