@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "main.h"
+/**
+* _strcat - gets the lenght
+* @dest: a pointer parameter
+* @src: a second pointer
+* Return: void
+*/
