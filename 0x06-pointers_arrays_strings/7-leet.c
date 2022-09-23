@@ -7,19 +7,20 @@
 */
 char *leet(char *s)
 {
-int i;
+char rev_val[] ={'1','1','7','7','0','0','3','3','4','4'};
+char rev_low[]= {'l','L','t','T', 'o','O','e','E','a','A'};
+int i, j;
 for (i = 0; s[i] != '\0'; i++)
 {
-if (s[i] == 'a' || s[i] == 'A')
-s[i] = '4';
-if (s[i] == 'e' || s[i] == 'E')
-s[i] = '3';
-if (s[i] == 'o' || s[i] == 'O')
-s[i] = '0';
-if (s[i] == 't' || s[i] == 'T')
-s[i] = '7';
-if (s[i] == 'l' || s[i] == 'L')
-s[i] = '1';
+j = 0;
+while (j < 9)
+{
+if(s[i] == rev_low[j])
+{
+s[i] = rev_val[j];
+}
+j++;
+}
 }
 return (s);
 }
