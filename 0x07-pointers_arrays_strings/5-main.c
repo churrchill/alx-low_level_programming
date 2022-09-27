@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdio.h>
 /**
 
@@ -15,9 +14,9 @@ int main(void)
   
 {
   
-  char *s = "hello, world";
+  char *s = "First, solve the problem. Then, write the code.";
   
-  char *f = "world";
+  char *f = "schooo";
   
   char *t;
   
