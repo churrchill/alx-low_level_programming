@@ -4,7 +4,7 @@
 * _strchr - gets the lenght
 * @s: a pointer parameter
 * @c: a second pointer
-* Return: void
+* Return: chare
 */
 char *_strchr(char *s, char c)
 {
