@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _strncat - gets the lenght
+* _memset - gets the lenght
 * @s: a pointer parameter
 * @b: a second pointer
 * @n: no of terms
