@@ -8,13 +8,18 @@
 */
 char *_strchr(char *s, char c)
 {
-char *f = NULL;
-int a = 0;
-while (s[a] != '\0')
+int i = 0;
+while (*(s + i) != '\0')
 {
-if (s[a] == c)
-return (s + a);
-a++;
+if (*(s + i) == c)
+{
+return (s + i);
 }
-return (f);
+i++;
+}
+if (c == '\0')
+{
+return (s + i);
+}
+return (NULL);
 }
