@@ -29,5 +29,5 @@ for (i = 0; i < size; i++)
 {
 fdiagsum += *(a + (size * (i + 1) - (i + 1)));
 }
-printf("%d, %dn", bdiagsum, fdiagsum);
+printf("%d, %d\n", bdiagsum, fdiagsum);
 }
