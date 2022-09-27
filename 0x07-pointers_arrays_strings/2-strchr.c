@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _strncat - gets the lenght
-* @dest: a pointer parameter
-* @src: a second pointer
-* @n: no of terms
+* _strchr - gets the lenght
+* @s: a pointer parameter
+* @c: a second pointer
 * Return: void
 */
-char *_strncat(char *dest, char *src, int n)
+char *_strchr(char *s, char c)
 {
-int i;
-int len = 0;
-while (dest[len] != '\0')
+char *f = NULL;
+int a = 0;
+while (s[a] != '\0')
 {
-len++;
+if (s[a] == c)
+return (s + a);
+a++;
 }
-for (i = 0 ; i < n && src[i] != '\0' ; i++)
-dest[len + i] = src[i];
-dest[len + i] = '\0';
-return (dest);
+return (f);
 }
