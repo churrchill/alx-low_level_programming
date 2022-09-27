@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _set_string - gets the lenght
+* set_string - gets the lenght
 * @s: a pointer parameter
 * @to: a second pointer
 * Return: void
