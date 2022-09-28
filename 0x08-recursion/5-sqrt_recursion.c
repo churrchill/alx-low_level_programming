@@ -4,7 +4,7 @@
 * check - get the workdone
 * @a: a inner function
 * @b: a inner func param
-* Return: void
+* Return: int
 */
 int check(int a, int b)
 {
@@ -18,6 +18,7 @@ return (check(a + 1, b));
 /**
 * _sqrt_recursion - gets the lenght
 * @n: number to check
+* Return: int val
 */
 int _sqrt_recursion(int n)
 {

@@ -4,7 +4,7 @@
 * check - get the workdone
 * @a: a inner function
 * @b: a inner func param
-* Return: void
+* Return: int
 */
 int check(int a, int b)
 {
@@ -18,6 +18,7 @@ return (check(a + 1, b));
 /**
 * is_prime_number - print prime no
 * @n: param to check
+* Return: int val
 */
 int is_prime_number(int n)
 {
