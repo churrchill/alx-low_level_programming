@@ -33,5 +33,5 @@ return (haystack + start);
 }
 }
 }
-return NULL;
+return (NULL);
 }
