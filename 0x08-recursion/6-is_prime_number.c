@@ -8,23 +8,22 @@
 */
 int check(int a, int b)
 {
-if (b / a == a && b % a == 0)
-return (a);
+if (b % a == 0)
+return (0);
 else if (a > (b / 2))
-return (-1);
+return (1);
 else
 return (check(a + 1, b));
 }
 /**
-* _sqrt_recursion - gets the lenght
-* @n: number to check
+* is_prime_number - print prime no
+* @n: param to check
 */
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
-int start = 1;
-int cop = n;
-if (n <= 0)
-return (-1);
+int start = 2;
+if (n <= 1)
+return (0);
 else
-return (check(start, cop));
+return (check(start, n));
 }
