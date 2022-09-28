@@ -17,6 +17,8 @@ while (needle[nlen] != '\0')
 {
 nlen++;
 }
+if (nlen == 0)
+return haystack;
 for (i = 0; haystack[i] != '\0'; i++)
 {
 for (j = 0; j < nlen && haystack[i] == needle[j]; j++, i++)
@@ -31,5 +33,5 @@ return (haystack + start);
 }
 }
 }
- return (NULL);
+return NULL;
 }
