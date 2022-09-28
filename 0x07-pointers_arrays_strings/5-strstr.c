@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+0;276;0c#include "main.h"
 /**
 * _strstr - locates a substring
 * @haystack: string to search through
@@ -19,7 +19,7 @@ nlen++;
 }
 if (nlen == 0)
 {
-return a;
+return haystack;
 }
 for (i = 0; haystack[i] != '\0'; i++)
 {
