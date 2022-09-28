@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * _pow_recursion - gets the lenght
-* @y: basea pointer parameter
+* @x: basea pointer parameter
 * @y: power
 * Return: void
 */
@@ -12,5 +12,5 @@ if (y < 0)
 return (-1);
 if (y == 0)
 return (1);
-return (x * _pow_recursion(x, y-1));
+return (x * _pow_recursion(x, y - 1));
 }
