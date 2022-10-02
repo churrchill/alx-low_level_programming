@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <limits.h>
 
 
 /**
@@ -14,9 +14,8 @@
 
 int main(void)
   
-{
-  
-  print_number(98);
+{  
+  print_number(INT_MIN);
   
   _putchar('\n');
   

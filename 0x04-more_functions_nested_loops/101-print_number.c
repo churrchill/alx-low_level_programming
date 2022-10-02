@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
 * print_numbers - prints numbers 0-9
 * @n: number to print
@@ -21,10 +22,12 @@ void print_number(int n)
 {
 int start;
 int num = n;
-if (num < 0)
+if (num <= INT_MIN)
+num = num;
+else if (num < 0)
 {
 _putchar('-');
-num *= -1;
+num = -num;
 }
 for (start = check(num); start >= 10; start /= 10)
 {
