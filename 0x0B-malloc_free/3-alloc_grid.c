@@ -1,10 +1,11 @@
-#include <stdio.h>  
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 /**
-* alloc_grid - gets the lenght 
-* @width: a pointer parameter 
+* alloc_grid - gets the lenght
+* @width: a pointer parameter
 * @height: lenght
+* Return - allo
 */
 int **alloc_grid(int width, int height)
 {
