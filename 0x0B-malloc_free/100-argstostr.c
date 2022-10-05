@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* argstostr - gets the lenght
-* @av: a pointer parameter
-* @ac: lenght
+* _strlen - gets the lenght
+* @string: a pointer parameter
 * Return: allo
-*/  
+*/
 int _strlen(char *string)
 {
 int length;
