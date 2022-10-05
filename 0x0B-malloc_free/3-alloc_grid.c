@@ -5,7 +5,7 @@
 * alloc_grid - gets the lenght
 * @width: a pointer parameter
 * @height: lenght
-* Return - allo
+* Return: allo
 */
 int **alloc_grid(int width, int height)
 {
