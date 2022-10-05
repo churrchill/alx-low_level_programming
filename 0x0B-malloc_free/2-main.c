@@ -24,7 +24,7 @@ int main(void)
   
 
   
-  s = str_concat(NULL, "Holberton");
+  s = str_concat(NULL,NULL );
   
   if (s == NULL)
     

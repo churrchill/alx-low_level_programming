@@ -13,7 +13,7 @@ char *s;
 int i = 0, j = 0, k, m = 0;
 if (s1 == NULL)
 s1 = "";
-else if (s2 == NULL)
+if (s2 == NULL)
 s2 = "";
 while (s1[i] != '\0')
 {
