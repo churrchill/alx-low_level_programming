@@ -9,12 +9,12 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-char *s, t = '\0';
+char *s;
 int i = 0, j = 0, k, m = 0;
 if (s1 == NULL)
-s1 = &t;
+s1 = "";
 else if (s2 == NULL)
-s2 = &t;
+s2 = "";
 while (s1[i] != '\0')
 {
 i++;
