@@ -1,18 +1,21 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /**
-* _pow_recursion - gets the lenght
+* main - gets the lenght
 * @argv: arg vector
 * @argc: arg count
 * Return: int
 */
 int main(int argc, char* argv [])
 {
-int i = 0;
-while (i < argc)
+int pro;
+if (argc == 3)
 {
-printf("%s\n", argv[i]);
-i = i + 1;
-}
+pro = atoi(argv[1]) * atoi(argv[2]);
+printf("%d\n",pro);
 return (0);
+}
+printf("Error\n");
+return (1);
 }

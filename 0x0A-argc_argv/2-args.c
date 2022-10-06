@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _pow_recursion - gets the lenght
+* main - gets the lenght
 * @argv: arg vector
 * @argc: arg count
 * Return: int
