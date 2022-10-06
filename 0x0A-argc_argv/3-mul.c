@@ -3,7 +3,7 @@
 #include "main.h"
 /**
 * main - gets the lenght
-* @argv: arg vector
+* @arg: arg vector
 * @argc: arg count
 * Return: int
 */

@@ -6,7 +6,7 @@
 * @argc: arg count
 * Return: int
 */
-int main(int argc, char* argv [])
+int main(int argc, char *argv[])
 {
 int i = 0;
 while (i < argc)
