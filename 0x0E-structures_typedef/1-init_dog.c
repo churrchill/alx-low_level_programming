@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
-* _init_dog - gets string length
+* init_dog - gets string length
 * @d: struct dog
 * @name: name of dog
 * @age: age of dog
