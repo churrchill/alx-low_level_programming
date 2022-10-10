@@ -2,15 +2,17 @@
 #include "dog.h"
 /**
 * _init_dog - gets string length
-* @d: string
+* @d: struct dog
 * @name: name of dog
 * @age: age of dog
-* @owner: owner's name
-* Return: void
+* @owner: owner's nam
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-d -> name = name;
-d -> age = age;
-d -> owner = owner;
+if (d != NULL)
+{
+d->name = name;
+d->age = age;
+d->owner = owner;
+}
 }
