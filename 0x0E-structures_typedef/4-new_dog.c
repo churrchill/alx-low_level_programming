@@ -13,7 +13,7 @@ char *arr;
 if (str == NULL)
 return (NULL);
 length = 0;
-while (*(str + length) != '\0')
+while (*(str+length) != '\0')
 {
 length++;
 }
