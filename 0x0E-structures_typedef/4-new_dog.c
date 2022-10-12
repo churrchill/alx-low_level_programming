@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* _strdup - returns a pointer to a newly allocated space in memory
+0;276;0c* _strdup - returns a pointer to a newly allocated space in memory
 * @str: string
 * Return: pointer to newly allocated space in memory
 */
@@ -17,7 +17,7 @@ while (*(str + length) != '\0')
 {
 length++;
 }
-arr = malloc(length * sizeof(char) + 1);
+arr = malloc(length *sizeof(char) + 1);
 if (arr == NULL)
 return (NULL);
 for (i = 0; i < length; i++)
