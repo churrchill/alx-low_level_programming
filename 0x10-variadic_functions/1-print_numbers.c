@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_strings - prints numbers
- * @separator: char separator
- * @n: number of parameters
- */
+* print_numbers - prints numbers
+* @separator: char separator
+* @n: number of parameters
+*/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list args;
