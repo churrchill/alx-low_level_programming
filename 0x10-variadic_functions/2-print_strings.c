@@ -12,7 +12,7 @@ unsigned int i;
 char *string;
 if (n == 0)
 {
-printf(n);
+printf("\n");
 return;
 }
 va_start(args, n);
@@ -24,12 +24,12 @@ string = "(nil)";
 if (i != n - 1)
 {
 if (separator == NULL)
-printf(%s, string);
+printf("%s", string);
 else
-printf(%s%s, string, separator);
+printf("%s%s", string, separator);
 }
 else
-printf(%sn, string);
+printf("%s\n", string);
 }
 va_end(args);
 }
