@@ -12,7 +12,7 @@ unsigned int i;
 int num;
 if (n == 0)
 {
-printf(n);
+printf("\n");
 return;
 }
 va_start(args, n);
@@ -22,16 +22,16 @@ num = va_arg(args, int);
 if (separator == NULL)
 {
 if (i == n - 1)
-printf(%dn, num);
+printf("%d\n", num);
 else
-printf(%d, num);
+printf("%d", num);
 }
 else
 {
 if (i == n - 1)
-printf(%dn, num);
+printf("%d\n", num);
 else
-printf(%d%s, num, separator);
+printf("%d%s", num, separator);
 }
 }
 va_end(args);
