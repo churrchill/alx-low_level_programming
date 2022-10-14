@@ -1,37 +1,37 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_char - print char
- * @args: list of arguments
- */
+* print_char - print char
+* @args: list of arguments
+*/
 void print_char(va_list args)
 {
 printf("%c", va_arg(args, int));
 }
 /**
- * print_int - print int
- * @args: list of arguments
- */
+* print_int - print int
+* @args: list of arguments
+*/
 void print_int(va_list args)
 {
 printf("%d", va_arg(args, int));
 }
 /**
- * print_float - print flot
- * @args: list of arguments
- */
+* print_float - print flot 
+* @args: list of arguments
+*/
 void print_float(va_list args)
 {
 printf("%f", va_arg(args, double));
 }
 /**
- * print_string - print string
- * @args: list of arguments
- */
+* print_string - print string
+* @args: list of arguments
+*/
 void print_string(va_list args)
 {
 char *s = va_arg(args, char *);
- if (s == NULL)
+if (s == NULL)
 {
 printf("(nil)");
 return;
@@ -39,9 +39,9 @@ return;
 printf("%s", s);
 }
 /**
- * print_all - prints anything*
- * @format: list of types of arguments
- */
+* print_all - prints anything*
+* @format: list of types of arguments
+*/
 void print_all(const char * const format, ...)
 {
 va_list args;
@@ -69,7 +69,7 @@ ops[j].f(args);
 s1 = s2;
 }
 j++;
-}   
+}
 i++;
 }
 printf("\n");
