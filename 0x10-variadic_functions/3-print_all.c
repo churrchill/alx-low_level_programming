@@ -49,7 +49,7 @@ int i, j;
 char *s1 = "";
 char *s2 = ", ";
 op_t ops[] = {
-{c, print_char},
+{'c', print_char},
 {'i', print_int},
 {'f', print_float},
 {'s', print_string},
@@ -61,6 +61,7 @@ while (format != NULL && format[i] != '\0')
 {
 j = 0;
 while (ops[j].c != '\0')
+{
 if (ops[j].c == format[i])
 {
 printf("%s", s1);
