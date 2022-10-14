@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include "variadic_functions.h"
+#include "_putchar.h"
+/**
+ * print_strings - prints numbers
+ * @separator: char separator
+ * @n: number of parameters
+ */
+void print_str(const char *n);
+void my_putchar(long var);
+void print_strings(const char *separator, const unsigned int n, ...)
+{
+va_list args;
+unsigned int i;
+int num;
+if (n == 0)
+{
+_putchar('\n');
+return;
+}
+if (separator == NULL)
+return;
+va_start(args, n);
+for (i = n; i > 1; i--)
+{
+num = va_arg(args, int);
+my_putchar(num);
+print_str(separator);
+va_end(args);
+}
+num = va_arg(args, int);
+my_putchar(num);
+_putchar('\n');
+}
+
+/**
+* my_putchar - prints numbers
+* @var: char separator
+*/
+void my_putchar(long var)
+{
+if (var < 0)
+{
+_putchar('-');
+var = var * -1;
+}
+if (var == 0)
+{
+_putchar('0');
+return;
+}
+if (var / 10)
+my_putchar(var / 10);
+_putchar((var % 10) + '0');
+}
+/**
+* print_str - prints numbers
+* @n: char separator
+*/
+void print_str(const char *n)
+{
+int i;
+while (*(n + i) != '\0')
+{
+_putchar(*(n + i));
+i++;
+}
+}
