@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include "function_pointers.h"
 /**
-* print_name - gets string length
-* @f: struct dog
-* @name: name of dog
+* print_name - prints a name
+* @name: string
+* @f: function pointer
+* Return: void
 */
 void print_name(char *name, void (*f)(char *))
 {
-if (name == NULL || f == NULL)
+if (f == NULL)
 return;
-(*f)(name);
+f(name);
 }
