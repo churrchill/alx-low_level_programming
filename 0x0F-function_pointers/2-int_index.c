@@ -2,14 +2,14 @@
 #include "function_pointers.h"
 /**
 * int_index - gets string length
-* @array: struct dog
+* @array: st dog
 * @size: name of dog
 * @cmp: name o func
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int a = 0;
-if (size <= 0)
+if (array == NULL || cmp == NULL || size <= 0)
 return (-1);
 while (a < size)
 {
