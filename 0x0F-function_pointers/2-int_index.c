@@ -5,6 +5,7 @@
 * @array: st dog
 * @size: name of dog
 * @cmp: name o func
+* Return: int val
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
